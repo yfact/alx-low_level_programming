@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - prints lowercase alphabet in reverse.
  * use putchar only and use it twice only.
  (* 

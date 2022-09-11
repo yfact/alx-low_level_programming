@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - prints numbers 0-9 without using char or printf/puts
  * use putchar twice only
  (*
