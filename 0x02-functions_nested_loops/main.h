@@ -4,3 +4,4 @@
  * Description: This header is linked in other files
  */
 int _putchar(char c);
+void print_alphabet(void);
