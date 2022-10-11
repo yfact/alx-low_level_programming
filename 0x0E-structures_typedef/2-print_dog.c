@@ -1,5 +1,5 @@
-#include "dog.h"
 #include <stdio.h>
+#include "dog.h"
 
 /**
  * print_dog - function of struct dog
@@ -22,5 +22,4 @@ void print_dog(struct dog *d)
 		else
 			printf("Owner: (nill)");
 	}
-
 }
