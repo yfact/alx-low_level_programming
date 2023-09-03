@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *  * main -  program that multiplies two numbers.
+ * main - program that multiplies two numbers.
  * @argc: Counts
  * @argv: Pointer of array of pointers
  *
@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 	else
 	{
 	x = atoi(argv[1]) * atoi(argv[2]);
-	printf("%i\n", n);
+	printf("%i\n", x);
 	}
 	return (y);
 }
