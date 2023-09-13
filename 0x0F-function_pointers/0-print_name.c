@@ -4,10 +4,11 @@
  * print_name - prints aname
  * @name: name to print
  * @f: function that prints name
+ *
+ * Return: nothing
  */
 void print_name(char *name, void (*f)(char *))
 {
-	if (name == NULL || f == NULL)
-		return
+	if (f != 0)
 	f(name);
 }
