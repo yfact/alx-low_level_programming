@@ -40,8 +40,8 @@ int palind3(char *a, int l)
  */
 int is_palindrome(char *s)
 {
-	int j;
+	int l;
 
-	j = palind2(s, 0);
+	l = palind2(s, 0);
 	return (palind3(s, l));
 }
